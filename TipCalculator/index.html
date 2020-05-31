@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <form action="" id="tip-cal">
+            <p>Bill Amount:<br>
+            <input type="text" id="billamt" placeholder="Enter the bill amount">
+            </p>
+            <p>Tip Percentage:<br>
+            <input type="range" id="tip-perc" value=0>
+            <span id="tip-val">00 %</span>
+            </p>
+            <p>Tip Amount: <br>
+            <input type="number" id="tipamt" value=0 readonly disabled>
+            </p>
+            <p>Total Payable Amount:<br>
+            <input type="number" id="total" value=0 readonly disabled> 
+            </p>
+        </form>
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
